@@ -1,5 +1,5 @@
-import { RequestQueryBuilder } from '@nestjsx/crud-request';
-import { isObjectFull } from '@nestjsx/util';
+import { RequestQueryBuilder } from 'nestjsx-crud/packages/crud-request';
+import { isObjectFull } from 'nestjsx-crud/packages/util';
 import * as deepmerge from 'deepmerge';
 
 import { CrudGlobalConfig } from '../interfaces';

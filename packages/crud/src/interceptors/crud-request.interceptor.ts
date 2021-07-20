@@ -10,8 +10,8 @@ import {
   RequestQueryParser,
   SCondition,
   QueryFilter,
-} from 'nestjsx-crud/packages/crud-request';
-import { isNil, isFunction, isArrayFull, hasLength } from 'nestjsx-crud/packages/util';
+} from '@nestjsx/crud-request';
+import { isNil, isFunction, isArrayFull, hasLength } from '@nestjsx/util';
 
 import { PARSED_CRUD_REQUEST_KEY } from '../constants';
 import { CrudActions } from '../enums';

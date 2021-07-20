@@ -5,7 +5,7 @@ import {
   isArrayFull,
   isNil,
   isUndefined,
-} from 'nestjsx-crud/packages/util';
+} from '@nestjsx/util';
 import { stringify } from 'qs';
 
 import { RequestQueryBuilderOptions, CreateQueryParams } from './interfaces';

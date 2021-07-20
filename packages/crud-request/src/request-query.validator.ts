@@ -7,7 +7,7 @@ import {
   isNumber,
   isNil,
   objKeys,
-} from 'nestjsx-crud/packages/util';
+} from '@nestjsx/util';
 
 import { RequestQueryException } from './exceptions';
 import { ParamsOptions, ParamOption } from './interfaces';
